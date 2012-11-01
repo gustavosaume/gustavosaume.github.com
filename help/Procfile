@@ -1,0 +1,2 @@
+jekyll:  jekyll --server
+comapss:  compass watch --sass-dir assets/themes/bigpanza/sass/ --css-dir assets/themes/bigpanza/css

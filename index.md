@@ -4,7 +4,7 @@ title: BigPanza
 ---
 {% include JB/setup %}
 
-# BigPanza
+<h1 id="big-header">Big Panza.</h1>
 
 <!-- <ul class="posts">
   {% for post in site.posts %}

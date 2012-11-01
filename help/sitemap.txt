@@ -1,0 +1,10 @@
+
+http://gustavosaume.github.com/bigpanza/archive.html
+http://gustavosaume.github.com/bigpanza/atom.xml
+http://gustavosaume.github.com/bigpanza/categories.html
+http://gustavosaume.github.com/bigpanza/index.html
+http://gustavosaume.github.com/bigpanza/pages.html
+http://gustavosaume.github.com/bigpanza/sitemap.txt
+http://gustavosaume.github.com/bigpanza/tags.html
+
+http://gustavosaume.github.com/bigpanza/lessons/2011/12/29/jekyll-introduction
