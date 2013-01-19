@@ -7,14 +7,7 @@ $navbarText:                #333 !default;
 $navbarLinkColor:           #333 !default;
 $navbarLinkColorHover:      #999 !default;
 
-@import "compass/reset";
-@import "compass_twitter_bootstrap";
-@import "compass_twitter_bootstrap_responsive";
 @import "screen";
-
-h1 {
-    font-family: 'Arvo', serif;
-}
 
 // MIXINS
 @mixin animation-delay($delay) {
@@ -50,6 +43,7 @@ body {
     margin-bottom: 100px;
     display: inline-block;
     position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     &:after {
         content: "";

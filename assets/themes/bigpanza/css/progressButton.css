@@ -207,7 +207,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 /* line 22, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_scaffolding.scss */
@@ -3984,15 +3984,15 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: white;
-  background-image: -moz-linear-gradient(top, white, white);
-  background-image: -ms-linear-gradient(top, white, white);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(white));
-  background-image: -webkit-linear-gradient(top, white, white);
-  background-image: -o-linear-gradient(top, white, white);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: whitesmoke;
+  background-image: -moz-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -ms-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(whitesmoke));
+  background-image: -webkit-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -o-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: linear-gradient(top, #f5f5f5, #f5f5f5);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='white', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='whitesmoke', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4237,7 +4237,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav .active > a:hover {
   color: #999999;
   text-decoration: none;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 /* line 246, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_navbar.scss */
@@ -4246,8 +4246,8 @@ input[type="submit"].btn.btn-mini {
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: white;
-  border-right: 1px solid white;
+  background-color: whitesmoke;
+  border-right: 1px solid whitesmoke;
 }
 
 /* line 256, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_navbar.scss */
@@ -4263,18 +4263,18 @@ input[type="submit"].btn.btn-mini {
   padding: 7px 10px;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: white;
-  background-image: -moz-linear-gradient(top, white, white);
-  background-image: -ms-linear-gradient(top, white, white);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(white));
-  background-image: -webkit-linear-gradient(top, white, white);
-  background-image: -o-linear-gradient(top, white, white);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: whitesmoke;
+  background-image: -moz-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -ms-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(whitesmoke));
+  background-image: -webkit-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -o-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: linear-gradient(top, #f5f5f5, #f5f5f5);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='white', GradientType=0);
-  border-color: white white #d9d9d9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='whitesmoke', GradientType=0);
+  border-color: whitesmoke whitesmoke #cfcfcf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) fadein(rgba(0, 0, 0, 0.1), 15%);
-  *background-color: white;
+  *background-color: whitesmoke;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-box-shadow: "inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075)";
@@ -4283,12 +4283,12 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 439, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_mixins.scss */
 .navbar .btn-navbar:hover, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
-  background-color: white;
-  *background-color: #f2f2f2;
+  background-color: whitesmoke;
+  *background-color: #e8e8e8;
 }
 /* line 446, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_mixins.scss */
 .navbar .btn-navbar:active, .navbar .btn-navbar.active {
-  background-color: #e6e6e6 \9;
+  background-color: gainsboro \9;
 }
 
 /* line 272, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_navbar.scss */
@@ -6446,7 +6446,7 @@ a.label:hover, a.badge:hover {
   /* line 72, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_responsive-navbar.scss */
   .nav-collapse .nav > li > a:hover,
   .nav-collapse .dropdown-menu a:hover {
-    background-color: white;
+    background-color: whitesmoke;
   }
 
   /* line 76, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_responsive-navbar.scss */
@@ -6492,8 +6492,8 @@ a.label:hover, a.badge:hover {
     float: none;
     padding: 9px 15px;
     margin: 9px 0;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
     -webkit-box-shadow: "inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1)";
     -moz-box-shadow: "inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1)";
     box-shadow: "inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1)";
@@ -6583,4 +6583,97 @@ a.label:hover, a.badge:hover {
 .navbar .nav > li > a {
   text-shadow: none;
   text-decoration: underline;
+}
+
+/* line 44, ../sass/progressButton.scss */
+.btn.disabled.btn-progress, .btn[disabled].btn-progress {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -moz-animation: progress-bar-stripes 2s linear infinite;
+  -ms-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+  -moz-background-size: 40px 40px;
+  -o-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+/* line 55, ../sass/progressButton.scss */
+.btn.disabled.btn-progress.btn-primary, .btn[disabled].btn-progress.btn-primary {
+  background-color: #149bdf;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* line 60, ../sass/progressButton.scss */
+.btn.disabled.btn-progress.btn-danger, .btn[disabled].btn-progress.btn-danger {
+  background-color: #ee5f5b;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* line 65, ../sass/progressButton.scss */
+.btn.disabled.btn-progress.btn-success, .btn[disabled].btn-progress.btn-success {
+  background-color: #62c462;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* line 70, ../sass/progressButton.scss */
+.btn.disabled.btn-progress.btn-info, .btn[disabled].btn-progress.btn-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* line 75, ../sass/progressButton.scss */
+.btn.disabled.btn-progress.btn-warning, .btn[disabled].btn-progress.btn-warning {
+  background-color: #fbb450;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+/* line 83, ../sass/progressButton.scss */
+.container {
+  margin-top: 40px;
+}
+
+/* line 87, ../sass/progressButton.scss */
+#buttons {
+  text-align: center;
+}
+
+/* line 91, ../sass/progressButton.scss */
+.btn {
+  margin-top: 20px;
+}
+
+/* line 95, ../sass/progressButton.scss */
+.inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 102, ../sass/progressButton.scss */
+  .btn {
+    width: 100%;
+  }
 }

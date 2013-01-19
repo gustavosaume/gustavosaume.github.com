@@ -1,8 +1,12 @@
 $navbarBackgroundHighlight: #FFF !default;
-$navbarBackground: 			#FFF !default;
+$navbarBackground: 					#FFF !default;
 $navbarText:                #333 !default;
 $navbarLinkColor:           #333 !default;
 $navbarLinkColorHover:      #999 !default;
+
+$brandedFontFamily: 'Amatic SC', Helvetica, Arial, sans-serif;
+$bodyFontFamily: 'Sanchez', Georgia, "Times New Roman", Times, serif;
+$baseFontFamily: $bodyFontFamily;
 
 @import "compass/reset";
 @import "compass_twitter_bootstrap";
@@ -10,7 +14,7 @@ $navbarLinkColorHover:      #999 !default;
 
 .small-font {
 	color: #000;
-	font-family: 'Sanchez', serif;
+	font-family: $bodyFontFamily;
 }
 
 .centered {
@@ -21,12 +25,16 @@ $navbarLinkColorHover:      #999 !default;
 	margin-left: -25%;
 }
 
+.centered-content {
+	display: block;
+}
+
 .big-header {
 	display: inline-block;
 	margin: 0 auto 20px;
 
-	font-family: 'Amatic SC', serif;
-	font-size: 236px;
+	font-family: $brandedFontFamily;
+	font-size: $baseFontSize * 20;
 	line-height: 1;
 
 	span {
@@ -50,14 +58,14 @@ $navbarLinkColorHover:      #999 !default;
 		padding: 0 20px;
 		margin-top: -13px;
 
-		font-size: 24px;
+		font-size: $baseFontSize * 1.7;
 
 		background: white;
 	}
 }
 
 .navbar .nav > li > a {
-	font-family: 'Sanchez', serif;
+	// font-family: 'Sanchez', serif;
 	text-shadow: none;
 	text-decoration: underline;
 }

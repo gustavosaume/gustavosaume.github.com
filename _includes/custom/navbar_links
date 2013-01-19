@@ -2,16 +2,20 @@
 
 {% if page.url == home_url %}
 
-  {% for post in posts_list %} 
-    <li><a href="{{ BASE_PATH }}{{ post.url }}" class="navbar-link">
-        {{ post.category }}
-    </a></li>
-  {% endfor %}
+  {% assign post = posts_list.first %} 
+  <li><a href="{{ BASE_PATH }}{{ post.url }}" class="navbar-link">
+      {{ post.category }}
+  </a></li>
 {% else %}
 
   <li><a href="{{ HOME_PATH }}" class="navbar-link">back home</a></li>
   {% if page.next %}
-  <li><a href="{{ page.next }}" class="navbar-link">next</a></li>
+  <li><a href="{{ page.next.url }}" class="navbar-link">prev</a></li>
   {% endif %}
+
+  {% if page.previous %}
+  <li><a href="{{ page.previous.url }}" class="navbar-link">next</a></li>
+  {% endif %}
+
 {% endif %}
 {% assign categories_list = nil %}

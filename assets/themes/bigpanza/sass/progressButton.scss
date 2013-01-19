@@ -1,0 +1,105 @@
+// VARS
+$font-size: 160px;
+$navbarBackground: #f5f5f5 !default;
+$bodyBackground: #f5f5f5 !default;
+$navbarBackgroundHighlight: #f5f5f5 !default;
+$navbarText:                #333 !default;
+$navbarLinkColor:           #333 !default;
+$navbarLinkColorHover:      #999 !default;
+
+@import "compass_twitter_bootstrap/variables";
+@import "compass_twitter_bootstrap/mixins";
+@import "screen";
+
+// Progress bar buttons
+// --------------------------------------------------
+@mixin ctb-gradient-striped($color, $angle: 45deg) {
+  background-color: $color;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255,255,255,.15)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255,255,255,.15)), color-stop(.75, rgba(255,255,255,.15)), color-stop(.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient($angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient($angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient($angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient($angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+}
+
+// Background sizing
+@mixin ctb-background-size($size) {
+  -webkit-background-size: $size;
+     -moz-background-size: $size;
+       -o-background-size: $size;
+          background-size: $size;
+}
+
+@mixin active-progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+     -moz-animation: progress-bar-stripes 2s linear infinite;
+      -ms-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+
+// Makes a button behave like a progress bar while is waiting
+// for an action to complete (disabled)
+.btn.disabled, .btn[disabled] {
+  &.btn-progress {
+    @include active-progress-bar;
+
+    @include ctb-gradient-striped(#e6e6e6);
+
+    // should be the same size of the progress bar @keyframe
+    // background position (progress-bars.less)
+    @include ctb-background-size(40px 40px);
+
+    // COLORS
+    // ------
+    &.btn-primary {
+      @include ctb-gradient-striped(#149bdf);
+    }
+
+    // Danger (red)
+    &.btn-danger {
+      @include ctb-gradient-striped(#ee5f5b);
+    }
+
+    // Success (green)
+    &.btn-success {
+      @include ctb-gradient-striped(#62c462);
+    }
+
+    // Info (teal)
+    &.btn-info {
+      @include ctb-gradient-striped(#5bc0de);
+    }
+
+    // Warning (orange)
+    &.btn-warning {
+      @include ctb-gradient-striped(lighten($orange, 15%));
+    }
+  }
+}
+
+// Page Styles
+// ----------------------------------------------------------------------------
+.container {
+  margin-top: 40px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+}
