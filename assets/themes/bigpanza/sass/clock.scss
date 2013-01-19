@@ -9,10 +9,6 @@ $navbarLinkColorHover:      #999 !default;
 
 @import "screen";
 
-h1 {
-    font-family: 'Arvo', serif;
-}
-
 // MIXINS
 @mixin animation-delay($delay) {
     -webkit-animation-delay: $delay;
@@ -47,6 +43,7 @@ body {
     margin-bottom: 100px;
     display: inline-block;
     position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     &:after {
         content: "";
