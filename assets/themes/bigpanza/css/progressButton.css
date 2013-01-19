@@ -203,7 +203,7 @@ textarea {
 /* line 9, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_scaffolding.scss */
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Sanchez", Georgia, "Times New Roman", Times, serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -497,7 +497,7 @@ a:hover {
 /* line 9, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_type.scss */
 p {
   margin: 0 0 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Sanchez", Georgia, "Times New Roman", Times, serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -870,7 +870,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Sanchez", Georgia, "Times New Roman", Times, serif;
 }
 
 /* line 55, ../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass_twitter_bootstrap-2.0.3/stylesheets/compass_twitter_bootstrap/_forms.scss */
@@ -6530,13 +6530,13 @@ a.label:hover, a.badge:hover {
     overflow: visible !important;
   }
 }
-/* line 11, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .small-font {
   color: #000;
-  font-family: 'Sanchez', serif;
+  font-family: "Sanchez", Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .centered {
   position: absolute;
   top: 50%;
@@ -6545,15 +6545,20 @@ a.label:hover, a.badge:hover {
   margin-left: -25%;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
+.centered-content {
+  display: block;
+}
+
+/* line 32, ../sass/screen.scss */
 .big-header {
   display: inline-block;
   margin: 0 auto 20px;
-  font-family: 'Amatic SC', serif;
-  font-size: 236px;
+  font-family: "Amatic SC", Helvetica, Arial, sans-serif;
+  font-size: 260px;
   line-height: 1;
 }
-/* line 32, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .big-header span {
   display: block;
   margin-top: 15px;
@@ -6565,18 +6570,17 @@ a.label:hover, a.badge:hover {
   height: 5px;
   text-align: center;
 }
-/* line 48, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .big-header small {
   display: inline-block;
   padding: 0 20px;
   margin-top: -13px;
-  font-size: 24px;
+  font-size: 22.1px;
   background: white;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .navbar .nav > li > a {
-  font-family: 'Sanchez', serif;
   text-shadow: none;
   text-decoration: underline;
 }
@@ -6646,11 +6650,30 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 83, ../sass/progressButton.scss */
+.container {
+  margin-top: 40px;
+}
+
+/* line 87, ../sass/progressButton.scss */
 #buttons {
   text-align: center;
 }
 
-/* line 87, ../sass/progressButton.scss */
+/* line 91, ../sass/progressButton.scss */
 .btn {
   margin-top: 20px;
+}
+
+/* line 95, ../sass/progressButton.scss */
+.inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 102, ../sass/progressButton.scss */
+  .btn {
+    width: 100%;
+  }
 }

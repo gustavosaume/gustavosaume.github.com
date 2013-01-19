@@ -8,7 +8,11 @@ css: progressButton
 script: progressButton
 ---
 {% include JB/setup %}
-<h1>Bootstrap Progress Button</h1>
+
+<a href="https://github.com/gustavosaume/bootstrap"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+<h1 class="inline">Bootstrap Progress Button</h1>
+<p class="inline">'nuff said!</p>
 <div id="buttons" class="row">
   <button class="btn btn-large btn-progress span4" 
     data-loading-text="Loading..." >Load Awesome</button>

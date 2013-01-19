@@ -80,10 +80,26 @@ $navbarLinkColorHover:      #999 !default;
 
 // Page Styles
 // ----------------------------------------------------------------------------
+.container {
+  margin-top: 40px;
+}
+
 #buttons {
   text-align: center;
 }
 
 .btn {
   margin-top: 20px;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
 }
