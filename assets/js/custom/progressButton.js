@@ -1,4 +1,5 @@
 //=require bootstrap-all
+
 $(document).ready(function() {
 
   $(".btn").click(function(e) {

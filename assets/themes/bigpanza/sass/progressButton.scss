@@ -42,9 +42,10 @@ $navbarLinkColorHover:      #999 !default;
 // for an action to complete (disabled)
 .btn.disabled, .btn[disabled] {
   &.btn-progress {
+    background-repeat: repeat;
     @include active-progress-bar;
 
-    @include ctb-gradient-striped(#e6e6e6);
+    @include ctb-gradient-striped(darken($btnBackgroundHighlight, 10%));
 
     // should be the same size of the progress bar @keyframe
     // background position (progress-bars.less)
@@ -53,27 +54,27 @@ $navbarLinkColorHover:      #999 !default;
     // COLORS
     // ------
     &.btn-primary {
-      @include ctb-gradient-striped(#149bdf);
+      @include ctb-gradient-striped($btnPrimaryBackgroundHighlight);
     }
 
     // Danger (red)
     &.btn-danger {
-      @include ctb-gradient-striped(#ee5f5b);
+      @include ctb-gradient-striped($btnDangerBackgroundHighlight);
     }
 
     // Success (green)
     &.btn-success {
-      @include ctb-gradient-striped(#62c462);
+      @include ctb-gradient-striped($btnSuccessBackgroundHighlight);
     }
 
     // Info (teal)
     &.btn-info {
-      @include ctb-gradient-striped(#5bc0de);
+      @include ctb-gradient-striped($btnInfoBackgroundHighlight);
     }
 
     // Warning (orange)
     &.btn-warning {
-      @include ctb-gradient-striped(lighten($orange, 15%));
+      @include ctb-gradient-striped($btnWarningBackgroundHighlight);
     }
   }
 }
@@ -86,20 +87,21 @@ $navbarLinkColorHover:      #999 !default;
 
 #buttons {
   text-align: center;
+
+  li {
+    margin-top: 20px;   
+  }
 }
 
-.btn {
-  margin-top: 20px;
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  @include ctb-box-sizing(border-box);
 }
 
 .inline {
   display: inline-block;
   margin-right: 10px;
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  .btn {
-    width: 100%;
-  }
 }
