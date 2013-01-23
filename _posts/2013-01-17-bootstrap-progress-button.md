@@ -9,7 +9,7 @@ script: progressButton
 ---
 {% include JB/setup %}
 
-<a href="https://github.com/gustavosaume/bootstrap/tree/progressbar-buttons"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/gustavosaume/bootstrap/tree/progress-buttons"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 <h1 class="inline">Bootstrap Progress Button</h1>
 <p class="inline">'nuff said!</p>

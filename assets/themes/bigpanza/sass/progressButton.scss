@@ -54,27 +54,27 @@ $navbarLinkColorHover:      #999 !default;
     // COLORS
     // ------
     &.btn-primary {
-      @include ctb-gradient-striped($btnPrimaryBackgroundHighlight);
+      @include ctb-gradient-striped($btnPrimaryBackground);
     }
 
     // Danger (red)
     &.btn-danger {
-      @include ctb-gradient-striped($btnDangerBackgroundHighlight);
+      @include ctb-gradient-striped($btnDangerBackground);
     }
 
     // Success (green)
     &.btn-success {
-      @include ctb-gradient-striped($btnSuccessBackgroundHighlight);
+      @include ctb-gradient-striped($btnSuccessBackground);
     }
 
     // Info (teal)
     &.btn-info {
-      @include ctb-gradient-striped($btnInfoBackgroundHighlight);
+      @include ctb-gradient-striped($btnInfoBackground);
     }
 
     // Warning (orange)
     &.btn-warning {
-      @include ctb-gradient-striped($btnWarningBackgroundHighlight);
+      @include ctb-gradient-striped($btnWarningBackground);
     }
   }
 }
