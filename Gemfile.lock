@@ -19,7 +19,7 @@ GEM
       sass (>= 3.2, < 3.5)
     compass_twitter_bootstrap (2.3.1)
       compass
-    ffi (1.9.18)
+    ffi (1.12.2)
     forwardable-extended (2.6.0)
     jekyll (3.6.2)
       addressable (~> 2.4)
